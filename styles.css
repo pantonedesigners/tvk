@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: max-content;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img1 {
+    margin-bottom: 20px;
+}
